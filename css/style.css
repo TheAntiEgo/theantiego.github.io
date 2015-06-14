@@ -8,7 +8,13 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: #5493e0;
+}
+
+.backpdx {
+    background-image: url(pdxback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -16,13 +22,13 @@ p {
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: #5493e0;
 }
 
 .parallax-container {
   min-height: 380px;
   line-height: 0;
-  height: auto;
+  height: 100%;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
