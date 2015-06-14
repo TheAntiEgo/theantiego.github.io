@@ -6,6 +6,70 @@
  * Made By MaterializeCSS.com
  */
 
+.btn-large {
+
+  background-color: #5493e0;
+}
+
+.btn2 {
+background-color: #0ddc6a;
+}
+
+
+.pad {
+  padding-left: 3%;
+  padding-right:3%;
+  padding-top:10px;
+}
+
+.prof {
+  border-radius: 100%;
+  width: 60%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homename {
+font-size: 200%;
+color:#5493e0;
+display: block;
+text-align: center;
+margin-top: 10px;
+}
+
+.procard {
+margin-top:20px !important;
+}
+
+.skill-tags {
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  color: #ffffff !important;
+  background-color: #5493e0;
+  margin: 4px;
+  font-weight: bold;
+}
+
+.blu {
+  color:#5493e0;
+}
+
+.collapsible-body p {
+  padding: 15px;
+}
+
+.no-btn {
+border-radius: 0%;
+box-shadow:none;
+
+}
+
+
 nav ul a,
 nav .brand-logo {
   color: #5493e0;
@@ -59,3 +123,33 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+
+
+  /* label color */
+   .input-field label {
+     color: #ffffff;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #ffffff;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #ffffff;
+   }
