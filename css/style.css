@@ -12,7 +12,7 @@
  }
 
 #howitworks {
-
+  max-height: 100%;
   width:80%;
   height: 100%;
 }
@@ -313,6 +313,11 @@ bt-container {
 
  h1 {
   font-size: 3.4rem;
+   }
+   h4 {
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+    }
 
 }
 
