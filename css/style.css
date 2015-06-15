@@ -9,6 +9,7 @@
  html {
 
   font-family: 'Montserrat', sans-serif;
+  background-color: #f3f3f3;
  }
 
  .brand-logo {
@@ -68,6 +69,7 @@ margin-top: 10px;
 
 .procard {
 margin-top:20px !important;
+background-color: white;
 }
 
 .skill-tags {
