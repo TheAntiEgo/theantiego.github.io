@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+ .brand-logo {
+
+  width: 240px;
+ }
+
 #howitworks {
 
   width:80%;
@@ -177,7 +182,7 @@ footer.page-footer {
 
 
 /* Styles for buttons container */
-.bt-container {
+bt-container {
  display: block;
  margin-left: auto;
  margin-right: auto;
@@ -299,4 +304,15 @@ footer.page-footer {
 
 .g-bg:active {
   background: #ce3e26;
+}
+
+@media screen and (max-width: 600px) {
+  .brand-logo {
+  width: 200px;
+ }
+}
+
+.nav-pad {
+  padding-left: 5%;
+  padding-right: 5%;
 }
