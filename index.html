@@ -1,371 +1,430 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>SkillSesh</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
 
-  <!-- CSS  -->
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>SkillSesh</title><!-- CSS  -->
+    <link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
 </head>
+
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src=pics/skilllogopastel.png style="width:240px;"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">FAQ</a></li>
-      </ul>
+    <nav class="white">
+        <div class="nav-wrapper container">
+            <a class="brand-logo" href="#" id="logo-container"><img src="pics/skilllogopastel.png" style="width:240px;"></a>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">FAQ</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-  </nav>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                <a href="#login" class="waves-effect waves-light btn modal-trigger">login</a>
+              </li>
+            </ul>
 
- <div class="section no-pad-bot" id="index-banner" style="background-image: url(pics/pdxback.png); background-attachment: fixed;">
-      <br><br>
-      <h1 class="header center white-text">Your Local Marketplace For Skills</h1>
-      <div class="row center">
-        <h4 class="header col s12 white-text light">-Teach and Learn With the People Around You-</h4>
-      </div>
-      <div class="row">
-        <div class="input-field col s12 m4 offset-m4" style="background-color:rgba(0,0,0,0.3);">
-          <i class="mdi-action-search prefix white-text"></i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix" style="font-size: 150%; text-align:center;">Find a Skill!</label>
+            <ul class="side-nav" id="nav-mobile">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                <a href="#login" class="waves-effect waves-light btn white-text modal-trigger">login</a>
+              </li>
+            </ul><a class="button-collapse mdi-navigation-menu" data-activates="nav-mobile" href="#" style="font-style: bold"></a>
         </div>
-      </div>
-      <div class="row center">
-        <div class="col s12 m4 offset-m4 ">
-        <a href="" id="" class="btn-large waves-effect waves-light left">Sign Up</a>
-        <a href="" id="" class="btn-large waves-effect waves-light btn2 right">How it Works</a>
-      </div>
-    </div>
-      <br><br>
-  </div>
+    </nav>
 
+    <div class="section no-pad-bot" id="index-banner" style="background-image: url(pics/pdxback.png); background-attachment: fixed; background-repeat: no-repeat;">
+        <br>
+        <br>
 
-<div class="row pad">
-<div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Josh D</span>
-          <img class="prof" src="pics/Joshpro.jpg">
-          
+        <h1 class="header center white-text">Your Local Marketplace For Skills</h1>
+
+        <div class="row center">
+            <h4 class="header col s12 white-text light" style="font-style: bold">-Teach and Learn With the People Around You-</h4>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
-
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
-
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Nicole M</span>
-          <img class="prof" src="pics/Nicolepro.jpg">
-          
+        <div class="row">
+            <div class="input-field col s12 m4 offset-m4" style="background-color:rgba(0,0,0,0.3);">
+                <i class="mdi-action-search prefix white-text"></i> <input class="validate" id="icon_prefix" type="text"> <label for="icon_prefix" style="font-size: 150%; text-align:center;">Find a Skill!</label>
+            </div>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
-
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
+        <div class="row center">
+            <div class="col s12 m4 offset-m4">
+                <a class="btn-large waves-effect waves-light left modal-trigger btn-main" href="#signup" id="">Sign Up</a>
+                 <a class="btn-large waves-effect waves-light btn2 right modal-trigger btn-main" href="#howitworks" id="">How it Works</a>
+            </div>
+        </div><br>
+        <br>
     </div>
 
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Kivett B</span>
-          <img class="prof" src="pics/Kivettpro.jpg">
-          
-        </div>
-
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
-
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
-
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Adrien B</span>
-          <img class="prof" src="pics/Adrienpro.jpg">
-          
-        </div>
-
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
-
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
-
-    
-      
-  
- 
-    </div>
     <div class="row pad">
-<div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Josh D</span>
-          <img class="prof" src="pics/Joshpro.jpg">
-          
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Josh D</span>
+                <div class="card-image waves-effect waves-block waves-light"> <img class="prof" src="pics/Joshpro.jpg"></div>
+
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Nicole M</span> 
+                <div class="card-image waves-effect waves-block waves-light"><img class="prof" src="pics/Nicolepro.jpg"></div>
 
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
 
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Nicole M</span>
-          <img class="prof" src="pics/Nicolepro.jpg">
-          
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Kivett B</span>
+                <div class="card-image waves-effect waves-block waves-light"> <img class="prof" src="pics/Kivettpro.jpg"></div>
 
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
 
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Kivett B</span>
-          <img class="prof" src="pics/Kivettpro.jpg">
-          
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Adrien B</span>
+                <div class="card-image waves-effect waves-block waves-light"> <img class="prof" src="pics/Adrienpro.jpg"></div>
 
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="col s12 m3">
-  <div class="z-depth-1 procard">
-  <div class="card-image waves-effect waves-block waves-light">
-    <span class="homename">Adrien B</span>
-          <img class="prof" src="pics/Adrienpro.jpg">
-          
+    <div class="row pad">
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Josh D</span>
+                <div class="card-image waves-effect waves-block waves-light">
+                 <img class="prof" src="pics/Joshpro.jpg"></div>
+
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-<ul class="collapsible popout" data-collapsible="accordion">
-    <li>
-      <div class="collapsible-header align-center blu"><i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span></div>
-      <div class="collapsible-body"><p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity.
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Nicole M</span>
+                <div class="card-image waves-effect waves-block waves-light"> <img class="prof" src="pics/Nicolepro.jpg"></div>
 
-He is currently engaged in three full-time projects</p></div>
-    </li>
-  </ul>
-  <div style="text-align:center">
-    <span class="skill-tags waves-effect waves-light">Photoshop </span>
-    <span class="skill-tags waves-effect waves-light">Illustrator </span>
-    <span class="skill-tags waves-effect waves-light">Branding </span>
-    <br>
-    <br>
-    </div>
-   <div style="text-align:center white-text">
-    <a href="" class="btn waves-effect waves-light waves-block btn2 no-btn" style=""><i class="mdi-communication-message"></i> Message</a>
-  </div>
-   
-     
-      </div>
-    </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
 
-    
-      
-  
- 
-    </div>
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
 
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
 
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="mdi-image-flash-on"></i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="mdi-social-group"></i></h2>
-            <h5 class="center">User Experience Focused</h5>
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Kivett B</span>
+                <div class="card-image waves-effect waves-block waves-light">
+                 <img class="prof" src="pics/Kivettpro.jpg"></div>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="mdi-action-settings"></i></h2>
-            <h5 class="center">Easy to work with</h5>
+        <div class="col s12 m3">
+            <div class="z-depth-1 procard">
+              <span class="homename">Adrien B</span>
+                <div class="card-image waves-effect waves-block waves-light">
+                 <img class="prof" src="pics/Adrienpro.jpg"></div>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
+                <ul class="collapsible popout" data-collapsible="accordion">
+                    <li>
+                        <div class="collapsible-header align-center blu">
+                            <i class="mdi-content-add-circle-outline"></i><span style="font-size: larger;">Bio</span>
+                        </div>
+
+                        <div class="collapsible-body">
+                            <p>Josh Doll is currently 27 years old, and believes in the power of collaboration over that of competition and exclusivity. He is currently engaged in three full-time projects</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div style="text-align:center">
+                    <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span><br>
+                    <br>
+                </div>
+
+                <div style="text-align:center white-text">
+                    <a class="btn waves-effect waves-light waves-block btn2 no-btn" href="" style=""><i class="mdi-communication-message"></i> Message</a>
+                </div>
+            </div>
         </div>
-      </div>
-
     </div>
-    <br><br>
 
-    <div class="section">
-    </div>
+
+        <div class="section">
+            <!--   Icon Section   -->
+
+            <div class="row pad">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                      <br>
+                        <h2 class="center blu mdi-action-search large" style="font-size:128px;"></h2>
+                        <br>
+                        <h5 class="center">Find teachers by skill or location.</h5>
+
+                
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                      <br>
+                        <h2 class="center blu mdi-social-group" style="font-size:128px;"></h2>
+
+                        <br>
+                        <h5 class="center">Browse teacher profiles and reviews.</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <img src="pics/ssclappastel.png" style="width:150px; display:block; margin-left: auto; margin-right: auto;">
+
+                        <h5 class="center">Book your session. You’re one step closer to unlocking your creative potential!</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="section"></div>
+
+  <!-- Modal Structure -->
+  <div id="signup" class="modal">
+    <div class="modal-content">
+      <h4 class="center-align blu">Sign Up!</h4>
+      <br>
+      <div class="row" style="margin-bottom: 0px;">
+        <div class="col s8 offset-s2 m4">
+        <div class="fb-icon-bg"></div>
+        <div class="fb-bg"></div>
+        </div>
+        <div class="col s8 offset-s2 m4">
+         <div class="twi-icon-bg"></div>
+    <div class="twi-bg"></div>
+        </div>
+        <div class="col s8 offset-s2 m4">
+        <div class="g-icon-bg"></div>
+    <div class="g-bg"></div>
+        </div>
+
 </div>
+<span class="center-align">We use these services to verify your identity.
+By signing up, you agree to abide by the terms and conditions. </span>
+    </div>
+  </div>
+
+  <div id="login" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+   <div id="howitworks" class="modal">
+    <div class="modal-content">
+      <h4 class="center-align blu">How It Works</h4>
+      <br>
+      <div class="section">
+            <!--   Icon Section   -->
+
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                      <br><br>
+                        <h2 class="center blu mdi-action-search" style="font-size:128px;"></h2>
+                        <br>
+                        <h5 class="center">Find teachers by skill or location.</h5>
+
+                
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                      <br><br>
+                        <h2 class="center blu mdi-social-group" style="font-size:128px;"></h2>
+
+                        <br>
+                        <h5 class="center">Browse teacher profiles and reviews.</h5>
+
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <img src="pics/ssclappastel.png" style="width:150px; display:block; margin-left: auto; margin-right: auto;">
+
+                        <h5 class="center">Book your session. You’re one step closer to unlocking your creative potential!</h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
 
 
     <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
-    </div>
+        <div class="container">
+            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+        </div>
+    </div><!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> <script src="js/materialize.js"></script> <script src="js/init.js"></script>
 
-  </div>
-  </footer>
-
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+    <script>
+    $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
+    </script>
+</body>
 </html>
