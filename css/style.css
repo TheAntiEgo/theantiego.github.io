@@ -6,11 +6,27 @@
  * Made By MaterializeCSS.com
  */
 
+.collapsible {
+  box-shadow: none;
+
+}
+
+.msg-btn {
+
+    padding-left: 30%;
+  padding-right: 30%;
+}
+
+.grn {
+color: #0ddc6a;
+
+}
 
 .skill-btn {
 
   height: 32px;
   text-transform:none;
+    bottom: 2px;
 }
 
  html {
@@ -71,7 +87,8 @@ font-size: 200%;
 color:#5493e0;
 display: block;
 text-align: center;
-margin-top: 10px;
+margin-top: 20px;
+padding-top:10px;
 }
 
 .procard {
