@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+.faq .collapsible-header {
+color: #0ddc6a;
+font-size: larger;
+
+}
 .collapsible {
   box-shadow: none;
 
