@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+    <title>SkillSesh</title><!-- CSS  -->
+     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+   
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="white">
+        <div class="nav-pad">
+            <a class="brand-logo" href="index.html" id="logo-container"><img src="pics/skilllogopastel.png" class="responsive-img" style=";"></a>
+
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                <a href="#login" class="waves-effect waves-light btn modal-trigger">login</a>
+              </li>
+            </ul>
+
+            <ul class="side-nav" id="nav-mobile">
+              <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                <a href="#login" class="waves-effect waves-light btn white-text modal-trigger">login</a>
+              </li>
+            </ul><a class="button-collapse mdi-navigation-menu" data-activates="nav-mobile" href="#" style="font-style: bold"></a>
+        </div>
+    </nav>
+  </div>
+
+    
+
+    <div class="row pad">
+        <div class="col s12 m6">
+            <div class="z-depth-1 procard pad">
+<div class="homename">Info</div>
+<br>
+                <img class="prof" style="width:50%" src="pics/Joshpro.jpg"><br>
+                <div class="row">
+              <div class="input-field col s12 m6">
+                <input value="Josh" id="first_name" type="text" class="validate">
+                <label for="first_name" class="active">First Name</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <input value="Doll" id="last_name" type="text">
+                <label for="last_name" class="">Last Name</label>
+            </div>
+             <div class="input-field col s12 m6">
+                <input value="Portland" id="city" type="text" class="validate">
+                <label for="city" class="active">City</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <input value="OR" id="state" type="text">
+                <label for="state" class="">State</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <input id="email" type="email" class="validate">
+                <label for="email" class="">Email</label>
+              </div>
+              </div>
+            </div>
+        </div>
+
+    <div class="col s12 m6">
+        <div class="z-depth-1 procard pad">
+            <div class="homename">Intro</div>
+    <form class="">
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="intro" class="materialize-textarea" length="300"></textarea>
+          <label for="intro">Tell us about yourself</label>
+        </div>
+      </div>
+    </form>
+</div>
+
+<div class="z-depth-1 procard pad">
+    <div class="homename">Skills</div>
+    <div class="row"><a class="btn-floating waves-effect waves-light btn-large tooltipped btn2" data-position="right" data-delay="50" data-tooltip="Add a New Skill!"><i class="mdi-content-add"></i></a></div>
+    <form class="">
+        <div class="row">
+
+            <br>
+              <div class="input-field col s12 m6">
+                <input placeholder="Guitar" id="skill_name" type="text" class="validate">
+                <label for="skill_name" class="active">Skill Name</label>
+              </div>
+    <div class="input-field col s12 m6">
+    <select>
+      <option value="1">Basic</option>
+      <option value="2">Advanced</option>
+      <option value="3">Expert</option>
+    </select>
+    <label>Teaching Level</label>
+  </div>
+            </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="skillhow" class="materialize-textarea" length="500"></textarea>
+          <label for="skillhow">How can you teach this skill?</label>
+        </div>
+      </div>
+      
+    </form>
+</div>
+
+  </div>
+   
+  </div>
+
+
+    
+
+ 
+
+    <div class="footer-copyright">
+        <div class="container">
+            
+        </div>
+    </div><!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> <script src="js/materialize.js"></script> <script src="js/init.js"></script>
+<script>
+$(document).ready(function() {
+    $('select').material_select();
+  });
+        </script>
+
+</body>
+</html>
