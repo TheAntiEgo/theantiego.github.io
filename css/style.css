@@ -8,7 +8,6 @@
 
  .input-field label {
   color: #5493e0;
-  font-size: 100%;
 }
 
 
@@ -48,7 +47,8 @@ color: #0ddc6a;
 
  .brand-logo {
 
-  width: 240px;
+  width: 220px;
+  padding-top: 3px !important;
  }
 
 #howitworks {
