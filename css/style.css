@@ -6,6 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
+ .input-field label {
+  color: #5493e0;
+  font-size: 100%;
+}
+
+
 .faq .collapsible-header {
 color: #0ddc6a;
 font-size: larger;
