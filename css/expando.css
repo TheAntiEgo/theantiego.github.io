@@ -77,7 +77,7 @@
       -ms-transform-origin: top center;
           transform-origin: top center;
   z-index: 10;
-  background: rgb(249, 249, 249);
+  background: white;
   opacity: 0;
 }
 
