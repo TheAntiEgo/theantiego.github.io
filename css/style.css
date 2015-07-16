@@ -9,7 +9,9 @@
 @import url ("css/expando.css");
 @media only screen and (max-width: 600px) {
     .row .col {
-        padding: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+
     }
 }
 .input-field label {
@@ -27,7 +29,7 @@
     padding-right: 30%;
 }
 .grn {
-    color: #0ddc6a;
+    color: #0ddc6a !important;
 }
 .skill-btn {
     height: 32px;
@@ -157,6 +159,8 @@ html {
 p {
     padding-left: 10px;
     padding-left: 10px;
+    line-height: 2rem;
+    margin-top:0px;
 }
 .no-btn {
     border-radius: 0%;
@@ -170,9 +174,7 @@ nav .brand-logo {
     background-image: url(pdxback.png);
     background-size: cover;
     background-repeat: no-repeat;
-}
-p {
-    line-height: 2rem;
+
 }
 .button-collapse {
     color: #5493e0;
@@ -407,10 +409,18 @@ footer.page-footer {
   font-weight: bold;
   font-size: 120%;
   border-bottom-style: solid;
-  border-bottom-width: 5px;
+  border-bottom-width: 1px;
   border-bottom-color: whitesmoke;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.skill-snippet {
+
+  font-weight: bold;
+  font-size: 120%;
   padding-bottom: 15px;
-  color: #0ddc6a;
+  padding-top: 0px;
 }
 
 .review{
@@ -419,7 +429,7 @@ footer.page-footer {
 }
 
 .input-field label.active {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   }
 
   .input-field {
