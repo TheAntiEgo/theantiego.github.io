@@ -37,6 +37,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f6f6;
+    color: rgb(158, 158, 158);
 }
 .brand-logo {
     width: 220px;
@@ -80,9 +81,29 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.26);
     position: relative;
     top: -30px;
+
+}
+
+
+.prof2 {
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -30px;
+    width:20%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .prof2 {
+        width:50%;
+    }
 }
 .homename {
     font-size: 200%;
@@ -130,7 +151,12 @@ html {
     color: #5493e0;
 }
 .collapsible-body p {
-    padding: 15px;
+    padding: 10px;
+}
+
+p {
+    padding-left: 10px;
+    padding-left: 10px;
 }
 .no-btn {
     border-radius: 0%;
@@ -370,3 +396,32 @@ footer.page-footer {
     
     transition-duration: 0.2s;
 }
+
+.skill-block {
+  margin-top: 30px;
+  margin-bottom:20px;
+}
+
+.level {
+  
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: whitesmoke;
+  padding-bottom: 15px;
+  color: #0ddc6a;
+}
+
+.review{
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+.input-field label.active {
+  font-size: 1.4rem;
+  }
+
+  .input-field {
+      padding-bottom: 15px !important;
+  }
