@@ -7,418 +7,366 @@
  */
 
 @import url ("css/expando.css");
-
-
-
- .input-field label {
-  color: #5493e0;
+@media only screen and (max-width: 600px) {
+    .row .col {
+        padding: 1%;
+    }
 }
-
-
+.input-field label {
+    color: #5493e0;
+}
 .faq .collapsible-header {
-color: #0ddc6a;
-font-size: larger;
-
+    color: #0ddc6a;
+    font-size: larger;
 }
 .collapsible {
-  box-shadow: none;
-
+    box-shadow: none;
 }
-
 .msg-btn {
-
     padding-left: 30%;
-  padding-right: 30%;
+    padding-right: 30%;
 }
-
 .grn {
-color: #0ddc6a;
-
+    color: #0ddc6a;
 }
-
 .skill-btn {
-
-  height: 32px;
-  text-transform:none;
+    height: 32px;
+    text-transform: none;
     bottom: 2px;
 }
-
- html {
-
-  font-family: 'Montserrat', sans-serif;
-  background-color: #f5f6f6;
- }
-
- .brand-logo {
-
-  width: 220px;
-  padding-top: 3px !important;
- }
-
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f6f6;
+}
+.brand-logo {
+    width: 220px;
+    padding-top: 3px !important;
+}
 #howitworks {
-  height: 100%;
+    height: 100%;
 }
-
 .btn-main {
-
-  width: 45%;
+    width: 45%;
 }
-
 .btn-large {
-
-  background-color: #5493e0;
+    background-color: #5493e0;
 }
-
 .btn {
-
-  background-color: #5493e0;
+    background-color: #5493e0;
 }
-
-
 .btn2 {
-background-color: #0ddc6a;
-padding:0px;
+    background-color: #0ddc6a;
+    padding: 0px;
 }
-
-
 .pad {
-  padding-left:5%;
-  padding-right:5%;
-  padding-top:10px;
-  padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
-
+@media only screen and (max-width: 600px) {
+    .pad {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+}
 .prof {
-  border-radius: 100%;
-  width: 50%;
-  margin-top: 10px;
-  margin-bottom: -20px;
-   display: block;
+    border-radius: 100%;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-  box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.26);
+    box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.26);
     position: relative;
-  top: -30px;
+    top: -30px;
 }
-
 .homename {
-font-size: 200%;
-color:#5493e0;
-display: block;
-text-align: center;
-margin-top: 0px;
+    font-size: 200%;
+    color: #5493e0;
+    display: block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 12px;
 }
-
 .procard {
-margin-top:80px !important;
-  margin-left: 1%;
-  margin-right: 1%;
+    margin-top: 80px !important;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 30px;
-background-color: white;
-  border-color: rgb(231, 231, 231);
-  border-width: 1px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px 0px rgba(50,58,59,0.15);
+    background-color: white;
+    border-color: rgb(231, 231, 231);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(50, 58, 59, 0.15);
 }
-
 .procard2 {
-margin-top:30px !important;
-  margin-left: 1%;
-  margin-right: 1%;
+    margin-top: 30px !important;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-bottom: 30px;
-background-color: white;
-  border-color: rgb(231, 231, 231);
-  border-width: 1px;
-  border-radius: 5px;
-  box-shadow: 0px 2px 2px 0px rgba(50,58,59,0.15);
+    background-color: white;
+    border-color: rgb(231, 231, 231);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(50, 58, 59, 0.15);
 }
-
 .skill-tags {
-  padding: 4px;
-  font-size: 16px;
-  border-radius: 3px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
-  color: #ffffff !important;
-  background-color: #5493e0;
-  margin-left: 8px;
-  margin-right: 8px;
-  font-weight: bold;
-  margin-bottom: 5px;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    color: #ffffff !important;
+    background-color: #5493e0;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
-
 .blu {
-  color:#5493e0;
+    color: #5493e0;
 }
-
 .collapsible-body p {
-  padding: 15px;
+    padding: 15px;
 }
-
 .no-btn {
-border-radius: 0%;
-box-shadow:none;
-
+    border-radius: 0%;
+    box-shadow: none;
 }
-
-
 nav ul a,
 nav .brand-logo {
-  color: #5493e0;
+    color: #5493e0;
 }
-
 .backpdx {
     background-image: url(pdxback.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
-
 .button-collapse {
-  color: #5493e0;
-  font-size: 350%;
+    color: #5493e0;
+    font-size: 350%;
 }
-
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: 100%;
-  color: rgba(255,255,255,.9);
+    min-height: 380px;
+    line-height: 0;
+    height: 100%;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
-
-.icon-block {
-  padding: 0 15px;
-}
-
-footer.page-footer {
-  margin: 0;
-}
-
-
-
-  /* label color */
-   .search .input-field label {
-     color: #ffffff;
-   }
-   /* label focus color */
-   .search .input-field input[type=text]:focus + label {
-     color: #ffffff;
-   }
-   /* label underline focus color */
-   .search .input-field input[type=text]:focus {
-     border-bottom: 1px solid #ffffff;
-     box-shadow: 0 1px 0 0 #ffffff;
-   }
-   /* valid color */
-   .search .input-field input[type=text].valid {
-     border-bottom: 1px solid #ffffff;
-     box-shadow: 0 1px 0 0 #ffffff;
-   }
-   /* invalid color */
-   .search .input-field input[type=text].invalid {
-     border-bottom: 1px solid #ffffff;
-     box-shadow: 0 1px 0 0 #ffffff;
-   }
-   /* icon prefix focus color */
-   .search .input-field .prefix.active {
-     color: #ffffff;
-   }
-
-   /* Taking font for text in buttons */
-
-
-/* Styles for buttons container */
-.bt-container {
- display: block;
- margin-left: auto;
- margin-right: auto;
-}
-
-/* Facebook */
-.fb-icon-bg {
-  background: #354f88;
-  height: 37px;
-  margin: 0 0 -37px 0;
-  width: 41px; 
-}
-
-.fb-icon-bg:after {
-  content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/fb-icon.png);
-  display: block;
-  padding: 9px 10px 5px 15px;
-}
-
-.fb-bg {
-  background: #3b5998;
-  display: block;
-  height: 37px;
-  margin: 0 0 30px 41px;
-  width: 166px; 
-}
-
-.fb-bg:after {
-  color: #fff;
-  content: "Facebook";
-  height: 37px;
-  left: 8%;
-  position: relative;
-  top: 22%;
-  width: 41px; 
-}
-
-.fb-bg:hover{
-  cursor: pointer;
-}
-
-.fb-bg:active{
-  background: #354f88;
-}
-
-/* Twitter */
-.twi-icon-bg:after {
-  content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/twi-icon.png);
-  display: block;
-  padding: 11px 10px 6px 11px;
-}
-
-.twi-icon-bg {
-  background: #40a2d1;
-  height: 37px;
-  margin: 0 0 -37px 0;
-  width: 41px; 
-}
-
-.twi-bg {
-  background: #45b0e3;
-  height: 37px;
-  margin: 0 0 30px 41px;
-  width: 166px; 
-}
- 
-.twi-bg:after {
-  color: #fff;
-  content: "Twitter";
-  height: 37px;
-  left: 11%;
-  position: relative;
-  top: 22%;
-  width: 41px; 
-}
-
-.twi-bg:hover {
-  cursor: pointer;
-}
-
-.twi-bg:active {
-  background: #40a2d1;
-}
-
-/* Google+ */
-.g-icon-bg:after {
-  content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/g-icon.png);
-  display: block;
-  padding: 11px 10px 6px 13px;
-}
-
-.g-icon-bg {
-  background: #ce3e26;
-  height: 37px;
-  margin: 0 0 -37px 0;
-  width: 41px; 
-}
- 
-.g-bg {
-  background: #de4c34;
-  height: 37px;
-  margin-left: 41px;
-  width: 166px; 
-}
- 
-.g-bg:after {
-  color: #fff;
-  content: "Google";
-  height: 37px;
-  left: 10%;
-  position: relative;
-  top: 22%;
-  width: 41px; 
-}
-
-.g-bg:hover {
-  cursor: pointer;
-}
-
-.g-bg:active {
-  background: #ce3e26;
-}
-
-@media screen and (max-width: 600px) {
-  .brand-logo {
-  width: 200px;
- }
-
- h2 {
-  font-size: 3.2rem;
-   }
-   h5 {
-  font-size: 1.4rem;
-  line-height: 1.5rem;
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
     }
-
+    #index-banner .section {
+        top: 10%;
+    }
 }
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+.icon-block {
+    padding: 0 15px;
+}
+footer.page-footer {
+    margin: 0;
+}
+/* label color */
 
+.search .input-field label {
+    color: #ffffff;
+}
+/* label focus color */
+
+.search .input-field input[type=text]:focus + label {
+    color: #ffffff;
+}
+/* label underline focus color */
+
+.search .input-field input[type=text]:focus {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* valid color */
+
+.search .input-field input[type=text].valid {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* invalid color */
+
+.search .input-field input[type=text].invalid {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+/* icon prefix focus color */
+
+.search .input-field .prefix.active {
+    color: #ffffff;
+}
+/* Taking font for text in buttons */
+/* Styles for buttons container */
+
+.bt-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Facebook */
+
+.fb-icon-bg {
+    background: #354f88;
+    height: 37px;
+    margin: 0 0 -37px 0;
+    width: 41px;
+}
+.fb-icon-bg:after {
+    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/fb-icon.png);
+    display: block;
+    padding: 9px 10px 5px 15px;
+}
+.fb-bg {
+    background: #3b5998;
+    display: block;
+    height: 37px;
+    margin: 0 0 30px 41px;
+    width: 166px;
+}
+.fb-bg:after {
+    color: #fff;
+    content: "Facebook";
+    height: 37px;
+    left: 8%;
+    position: relative;
+    top: 22%;
+    width: 41px;
+}
+.fb-bg:hover {
+    cursor: pointer;
+}
+.fb-bg:active {
+    background: #354f88;
+}
+/* Twitter */
+
+.twi-icon-bg:after {
+    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/twi-icon.png);
+    display: block;
+    padding: 11px 10px 6px 11px;
+}
+.twi-icon-bg {
+    background: #40a2d1;
+    height: 37px;
+    margin: 0 0 -37px 0;
+    width: 41px;
+}
+.twi-bg {
+    background: #45b0e3;
+    height: 37px;
+    margin: 0 0 30px 41px;
+    width: 166px;
+}
+.twi-bg:after {
+    color: #fff;
+    content: "Twitter";
+    height: 37px;
+    left: 11%;
+    position: relative;
+    top: 22%;
+    width: 41px;
+}
+.twi-bg:hover {
+    cursor: pointer;
+}
+.twi-bg:active {
+    background: #40a2d1;
+}
+/* Google+ */
+
+.g-icon-bg:after {
+    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/g-icon.png);
+    display: block;
+    padding: 11px 10px 6px 13px;
+}
+.g-icon-bg {
+    background: #ce3e26;
+    height: 37px;
+    margin: 0 0 -37px 0;
+    width: 41px;
+}
+.g-bg {
+    background: #de4c34;
+    height: 37px;
+    margin-left: 41px;
+    width: 166px;
+}
+.g-bg:after {
+    color: #fff;
+    content: "Google";
+    height: 37px;
+    left: 10%;
+    position: relative;
+    top: 22%;
+    width: 41px;
+}
+.g-bg:hover {
+    cursor: pointer;
+}
+.g-bg:active {
+    background: #ce3e26;
+}
+@media screen and (max-width: 600px) {
+    .brand-logo {
+        width: 200px;
+    }
+    h2 {
+        font-size: 3.2rem;
+    }
+    h5 {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+}
 .nav-pad {
-  padding-left: 5%;
-  padding-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-
-
-
 .tabs .tab a {
-  color: #5493e0; 
-  font-size: 130%;
-
+    color: #5493e0;
+    font-size: 130%;
 }
-
 .tabs .indicator {
     background-color: #0DDC6A;
 }
-
 .btn-floating.btn-large {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
-
 .waves-effect {
-  overflow: visible;
+    overflow: visible;
 }
-
 .circle-btn-main {
-  margin-right:20px;
-  margin-bottom:20px !important;
+    margin-right: 20px;
+    margin-bottom: 20px !important;
 }
-
 .collapsible {
-border:none;
+    border: none;
+}
+.google-expando__icon.active {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition-duration: 0.2s;
+    /* Safari */
+    
+    transition-duration: 0.2s;
 }
