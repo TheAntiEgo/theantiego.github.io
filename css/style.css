@@ -14,6 +14,9 @@
 
     }
 }
+
+
+}
 .input-field label {
     color: #5493e0;
 }
@@ -59,7 +62,7 @@ html {
 }
 .btn2 {
     background-color: #0ddc6a;
-    padding: 0px;
+ 
 }
 .pad {
     padding-left: 5%;
@@ -169,13 +172,9 @@ p {
 nav ul a,
 nav .brand-logo {
     color: #5493e0;
+    font-weight:bold;
 }
-.backpdx {
-    background-image: url(pdxback.png);
-    background-size: cover;
-    background-repeat: no-repeat;
 
-}
 .button-collapse {
     color: #5493e0;
     font-size: 350%;
@@ -379,9 +378,7 @@ footer.page-footer {
 .btn-floating.btn-large {
     margin-bottom: 10px;
 }
-.waves-effect {
-    overflow: visible;
-}
+
 .circle-btn-main {
     margin-right: 20px;
     margin-bottom: 20px !important;
