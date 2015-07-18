@@ -62,7 +62,7 @@
 
     <!--Jumbotron -->
 
-    <div class="section no-pad-bot" id="index-banner" style=" background-image: url(pics/app-blurred-bg-16.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+    <div class="section no-pad-bot" id="index-banner" style=" background-image: url(pics/ambientturquoise.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
 
         <h2 class="header center white-text" style="">Your Local Market For Skills</h2>
 
@@ -80,8 +80,8 @@
 
         <div class="row center">
             <div class="col s12 m4 offset-m4">
-                <a class="btn-large waves-effect waves-light left modal-trigger btn-main" href="#signup" id="">Sign Up</a>
-                <a class="btn-large waves-effect waves-light btn2 right modal-trigger btn-main" style="padding:0%;" href="#howitworks" id="">How it Works</a>
+                <a class="btn-large waves-effect waves-light left modal-trigger btn-main btn2" href="#signup" id="">Sign Up</a>
+                <a class="btn-large waves-effect waves-light right modal-trigger btn-main" style="padding:0%;" href="#howitworks" id="">How it Works</a>
             </div>
         </div>
         <br>
@@ -106,12 +106,13 @@
 
                             <span class="homename">Josh D</span>
                         </div>
+                        <br>
                         <div style="text-align:center">
                             <div class="skill-snippet">
                               “Learn how to mockup websites, design flyers, or edit images”
                             </div>
                             <span class="skill-tags waves-effect waves-light">Photoshop</span> <span class="skill-tags waves-effect waves-light">Illustrator</span> <span class="skill-tags waves-effect waves-light">Branding</span>
-                            <br>
+                            <br><br>
                         </div>
 
                         <div class="google-expando--wrap">
@@ -405,20 +406,17 @@
     <!-- Modal Structure -->
     <div id="signup" class="modal">
         <div class="modal-content">
-            <h4 class="center-align blu">Sign Up!</h4>
+            <h4 class="center-align blu">Sign Up</h4>
             <br>
-            <div class="row" style="margin-bottom: 0px;">
+            <div class="row">
                 <div class="col s10 offset-s1 m4">
-                    <div class="fb-icon-bg"></div>
-                    <div class="fb-bg"></div>
+                    <a class="btn-large waves-effect waves-light btn-login facebook-login" href="onboard1.html" id="">Facebook</a>
                 </div>
                 <div class="col s10 offset-s1 m4">
-                    <div class="twi-icon-bg"></div>
-                    <div class="twi-bg"></div>
+                    <a class="btn-large waves-effect waves-light btn-login google-login" href="onboard1.html" id="">Google+</a>
                 </div>
                 <div class="col s10 offset-s1 m4">
-                    <div class="g-icon-bg"></div>
-                    <div class="g-bg"></div>
+                    <a class="btn-large waves-effect waves-light btn-login linkedin-login" href="onboard1.html" id="">LinkedIn</a>
                 </div>
 
             </div>
@@ -429,11 +427,20 @@ By signing up, you agree to abide by the terms and conditions. </span>
 
     <div id="login" class="modal">
         <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            <h4 class="center-align blu">Log In</h4>
+            <br>
+            <div class="row">
+                <div class="col s10 offset-s1 m4">
+                    <a class="btn-large waves-effect waves-light btn-login facebook-login" href="#signup" id="">Facebook</a>
+                </div>
+                <div class="col s10 offset-s1 m4">
+                    <a class="btn-large waves-effect waves-light btn-login google-login" href="#signup" id="">Google+</a>
+                </div>
+                <div class="col s10 offset-s1 m4">
+                    <a class="btn-large waves-effect waves-light btn-login linkedin-login" href="#signup" id="">LinkedIn</a>
+                </div>
+
+            </div>
         </div>
     </div>
 

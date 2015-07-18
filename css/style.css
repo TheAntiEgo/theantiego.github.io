@@ -20,12 +20,11 @@
 .input-field label {
     color: #5493e0;
 }
-.faq .collapsible-header {
-    color: #0ddc6a;
-    font-size: larger;
-}
-.collapsible {
-    box-shadow: none;
+
+.bt-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .msg-btn {
     padding-left: 30%;
@@ -100,8 +99,9 @@ html {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: -30px;
+    top: -50px;
     width:20%;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 
 }
 
@@ -241,117 +241,7 @@ footer.page-footer {
 .search .input-field .prefix.active {
     color: #ffffff;
 }
-/* Taking font for text in buttons */
-/* Styles for buttons container */
 
-.bt-container {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-/* Facebook */
-
-.fb-icon-bg {
-    background: #354f88;
-    height: 37px;
-    margin: 0 0 -37px 0;
-    width: 41px;
-}
-.fb-icon-bg:after {
-    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/fb-icon.png);
-    display: block;
-    padding: 9px 10px 5px 15px;
-}
-.fb-bg {
-    background: #3b5998;
-    display: block;
-    height: 37px;
-    margin: 0 0 30px 41px;
-    width: 166px;
-}
-.fb-bg:after {
-    color: #fff;
-    content: "Facebook";
-    height: 37px;
-    left: 8%;
-    position: relative;
-    top: 22%;
-    width: 41px;
-}
-.fb-bg:hover {
-    cursor: pointer;
-}
-.fb-bg:active {
-    background: #354f88;
-}
-/* Twitter */
-
-.twi-icon-bg:after {
-    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/twi-icon.png);
-    display: block;
-    padding: 11px 10px 6px 11px;
-}
-.twi-icon-bg {
-    background: #40a2d1;
-    height: 37px;
-    margin: 0 0 -37px 0;
-    width: 41px;
-}
-.twi-bg {
-    background: #45b0e3;
-    height: 37px;
-    margin: 0 0 30px 41px;
-    width: 166px;
-}
-.twi-bg:after {
-    color: #fff;
-    content: "Twitter";
-    height: 37px;
-    left: 11%;
-    position: relative;
-    top: 22%;
-    width: 41px;
-}
-.twi-bg:hover {
-    cursor: pointer;
-}
-.twi-bg:active {
-    background: #40a2d1;
-}
-/* Google+ */
-
-.g-icon-bg:after {
-    content: url(https://dl.dropboxusercontent.com/u/54149043/CssDeck/g-icon.png);
-    display: block;
-    padding: 11px 10px 6px 13px;
-}
-.g-icon-bg {
-    background: #ce3e26;
-    height: 37px;
-    margin: 0 0 -37px 0;
-    width: 41px;
-}
-.g-bg {
-    background: #de4c34;
-    height: 37px;
-    margin-left: 41px;
-    width: 166px;
-}
-.g-bg:after {
-    color: #fff;
-    content: "Google";
-    height: 37px;
-    left: 10%;
-    position: relative;
-    top: 22%;
-    width: 41px;
-}
-.g-bg:hover {
-    cursor: pointer;
-}
-.g-bg:active {
-    background: #ce3e26;
-}
 @media screen and (max-width: 600px) {
     .brand-logo {
         width: 200px;
@@ -383,9 +273,7 @@ footer.page-footer {
     margin-right: 20px;
     margin-bottom: 20px !important;
 }
-.collapsible {
-    border: none;
-}
+
 .google-expando__icon.active {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -437,4 +325,37 @@ footer.page-footer {
    .label-fix {
     margin-top: 30px;
   }
+}
   
+.btn-login {
+
+    width:100%;
+      margin-bottom: 10px;
+}
+
+  .facebook-login {
+
+background-color:#4b70ab !important;
+  }
+
+  .linkedin-login {
+
+background-color:#0087be !important;
+  }
+
+    .google-login {
+
+background-color:#fa5432 !important;
+  }
+
+.proback{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-size:100% 100%;
+}
+
+.proback .homename {
+    color:white!important;
+}
