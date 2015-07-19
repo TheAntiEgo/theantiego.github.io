@@ -34,7 +34,6 @@
     color: #0ddc6a !important;
 }
 .skill-btn {
-    height: 32px;
     text-transform: none;
     bottom: 2px;
 }
@@ -307,6 +306,7 @@ footer.page-footer {
 .skill-block {
   margin-top: 30px;
   margin-bottom:20px;
+  font-size: larger;
 }
 
 .level {
