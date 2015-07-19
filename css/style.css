@@ -262,8 +262,7 @@ footer.page-footer {
 
 @media screen and (max-width: 600px) {
     .brand-logo {
-        width: 200px;
-        top:0px;
+        width: 220px;
     }
     h2 {
         font-size: 3.2rem;
