@@ -140,9 +140,20 @@ html {
     border-radius: 5px;
     box-shadow: 0px 2px 2px 0px rgba(50, 58, 59, 0.15);
 }
+
+.procard3 {
+    margin-top: 70px !important;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 30px;
+    background-color: white;
+    border-color: rgb(231, 231, 231);
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(50, 58, 59, 0.15);
+}
 .skill-tags {
     padding: 4px;
-    font-size: 16px;
     border-radius: 3px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
     color: #ffffff !important;
@@ -152,6 +163,7 @@ html {
     font-weight: bold;
     margin-bottom: 5px;
 }
+
 .blu {
     color: #5493e0;
 }
@@ -164,6 +176,7 @@ p {
     padding-left: 10px;
     line-height: 2rem;
     margin-top:0px;
+    text-indent: 10%;
 }
 .no-btn {
     border-radius: 0%;
@@ -292,7 +305,6 @@ footer.page-footer {
 .level {
   
   font-weight: bold;
-  font-size: 120%;
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: whitesmoke;
@@ -303,7 +315,6 @@ footer.page-footer {
 .skill-snippet {
 
   font-weight: bold;
-  font-size: 120%;
   padding-bottom: 15px;
   padding-top: 0px;
 }
@@ -358,4 +369,14 @@ background-color:#fa5432 !important;
 
 .proback .homename {
     color:white!important;
+}
+
+@media only screen and (min-width: 1200px){
+html {
+  font-size: 18px;
+}
+}
+
+.bold {
+    font-weight:bold;
 }
