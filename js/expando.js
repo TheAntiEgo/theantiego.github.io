@@ -16,3 +16,7 @@ function googleExpandoToggle() {
 $('.google-expando__icon').on('click', function() {
   googleExpandoToggle.call(this);
 });
+
+$('.booking-btn').on('click', function() {
+  googleExpandoToggle.call(this);
+});
