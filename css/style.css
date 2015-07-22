@@ -31,7 +31,7 @@
     padding-right: 30%;
 }
 .grn {
-    color: #0ddc6a !important;
+    color: #00D879 !important;
 }
 .skill-btn {
     text-transform: none;
@@ -61,7 +61,7 @@ html {
     background-color: #5493e0;
 }
 .btn2 {
-    background-color: #0ddc6a;
+    background-color: #00D879;
  
 }
 .pad {
@@ -82,9 +82,15 @@ html {
 .modal {
 
     background-color: #FFFFFF;
-    height:100%;
-    width:90%;
 }
+
+.modal-m {
+ height:90%;
+    width:90%;
+    top:5%;
+    max-height: 90%;
+
+    }
 .prof {
     border-radius: 100%;
     width: 50%;
@@ -196,11 +202,9 @@ html {
 }
 
 p {
-    padding-left: 10px;
-    padding-left: 10px;
     line-height: 2rem;
     margin-top:0px;
-    text-indent: 10%;
+    text-indent: 5%;
 }
 .no-btn {
     border-radius: 0%;
@@ -304,7 +308,7 @@ footer.page-footer {
     font-size: 130%;
 }
 .tabs .indicator {
-    background-color: #0DDC6A;
+    background-color: #00D879;
 }
 .btn-floating.btn-large {
     margin-bottom: 10px;
@@ -417,5 +421,5 @@ text-align:center;
 }
 
 .collapsible-header {
-    color: #0ddc6a;
+    color: #00D879;
 }
