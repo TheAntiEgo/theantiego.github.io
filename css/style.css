@@ -43,8 +43,8 @@ html {
     color: rgb(87, 87, 87);
 }
 .brand-logo {
-    width: 260px;
-      top: -5px;
+      width: 240px;
+    top: -2px;
       -webkit-font-smoothing: antialiased;
 
 }
@@ -314,7 +314,6 @@ footer.page-footer {
 }
 
 .circle-btn-main {
-    margin-right: 20px;
     margin-bottom: 20px !important;
 }
 

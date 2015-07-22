@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
     <link href="css/expando.css" media="screen,projection" rel="stylesheet" type="text/css">
+    <link href="css/simpletextrotator.css" media="screen,projection" rel="stylesheet" type="text/css">
     <link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
 
 </head>
@@ -70,7 +71,8 @@
         <h1 class="header center white-text" style="text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.32);">Your Local Market For Skills</h1>
 
         <div class="row center">
-            <h5 class="header col s12 white-text light" style="text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.32);font-weight: 100 ;">-Teach and Learn With the People Around You-</h5>
+            <h4 class="header col s12 white-text light" style="text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.32);font-weight: 100 ;">Learn <span class="rotate grn">Anything, Photoshop, Guitar, Javascript, Woodworking, French, Physics, Digital Marketing, Welding, Jiu Jitsu, Baking </span> From Your Community</h4>
+
         </div>
 
         <div class="row">
@@ -436,13 +438,15 @@
     <div id="message" class="modal">
         <div class="modal-content">
             <h4 class="center-align blu">Message</h4>
-            <br> <br>
+            <br> 
             <div class="row">
                 <div class="input-field col s12 m10 offset-m1">
     
       
-          <textarea placeholder="I am very interested in learning about logo design for 1 hour. How does your Sunday look?" length="300" autofocus></textarea>
-          <label for="intro">Let them know what you would like to learn and when</label>
+          <textarea class="materialize-textarea" placeholder="I am very interested in learning about logo design for 1 hour. How does your Sunday look?" length="300" id="message1" autofocus></textarea>
+          <label for="#message1">Let them know what you would like to learn and when</label>
+      </div>
+      <div class="col s12 m10 offset-m1">
           <br><br>
           <a class="btn-large waves-effect waves-light btn2 modal-close modal-trigger" style=" width:150px;  margin-left: auto;
   margin-right: auto;
@@ -553,6 +557,7 @@ By signing up, you agree to abide by the terms and conditions. </span>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/jquery.simple-text-rotator.js"></script>
     <script src="js/expando.js"></script>
 
 
@@ -561,6 +566,15 @@ By signing up, you agree to abide by the terms and conditions. </span>
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
             $('.modal-trigger').leanModal();
         });
+    </script>
+
+    <script>
+    $(".rotate").textrotator({
+        animation: "dissolve",
+        separator: ",",
+    speed: 2500
+    });
+
     </script>
 </body>
 
