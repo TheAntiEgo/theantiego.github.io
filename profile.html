@@ -82,7 +82,7 @@
                          <div style="text-align:center white-text">
 
                    <div class="col s4 offset-s2">
-                    <a class="btn-floating btn-large waves-effect waves-light btn2 bt-container" style=""><i class="mdi-communication-message"></i></a>
+                    <a class="modal-trigger btn-floating btn-large waves-effect waves-light btn2 bt-container" style="" href="#message"><i class="mdi-communication-message"></i></a>
                   </div>
                   <div class="col s4">
         <a class="btn-floating btn-large waves-effect waves-light bt-container"><i class="material-icons" style="font-size:240%">stars</i></a>
@@ -234,29 +234,30 @@
     
 
   <!-- Modal Structure -->
-  <div id="signup" class="modal">
-    <div class="modal-content">
-      <h4 class="center-align blu">Sign Up!</h4>
-      <br>
-      <div class="row" style="margin-bottom: 0px;">
-        <div class="col s10 offset-s1 m4">
-        <div class="fb-icon-bg"></div>
-        <div class="fb-bg"></div>
+   <div id="message" class="modal">
+        <div class="modal-content">
+            <h4 class="center-align blu">Message</h4>
+            <br> 
+            <div class="row">
+                <div class="input-field col s12 m10 offset-m1">
+    
+      
+          <textarea class="materialize-textarea" placeholder="I am very interested in learning about logo design for 1 hour. How does your Sunday look?" length="300" id="message1" autofocus></textarea>
+          <label for="#message1">Let them know what you would like to learn and when</label>
+      </div>
+      <div class="col s12 m10 offset-m1">
+          <br><br>
+          <a class="btn-large waves-effect waves-light btn2 modal-close modal-trigger" style=" width:150px;  margin-left: auto;
+  margin-right: auto;
+  display: block;" href="#message2" id="">Send</a>
+          <br>
         </div>
-        <div class="col s10 offset-s1 m4">
-         <div class="twi-icon-bg"></div>
-    <div class="twi-bg"></div>
-        </div>
-        <div class="col s10 offset-s1 m4">
-        <div class="g-icon-bg"></div>
-    <div class="g-bg"></div>
-        </div>
+                
 
-</div>
-<span class="center-align">We use these services to verify your identity.
-By signing up, you agree to abide by the terms and conditions. </span>
+            </div>
+            <span class="center-align"></span>
+        </div>
     </div>
-  </div>
 
   <div id="login" class="modal">
     <div class="modal-content">
