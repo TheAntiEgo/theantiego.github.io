@@ -40,7 +40,8 @@
 html {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f6f6;
-    color: #555;
+    color: #5e5e5e;
+    font-size: 16px;
 }
 .brand-logo {
       width: 240px;
