@@ -40,7 +40,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f6f6;
-    color: rgb(87, 87, 87);
+    color: #555;
 }
 .brand-logo {
       width: 240px;
@@ -76,6 +76,12 @@ html {
         padding-right: 1%;
         padding-top: 10px;
         padding-bottom: 30px;
+    }
+
+    .pad .pad {
+padding-left: 3%;
+        padding-right: 3%;
+
     }
 }
 
