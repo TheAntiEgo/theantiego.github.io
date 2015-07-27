@@ -38,10 +38,16 @@
     bottom: 2px;
 }
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: #f5f6f6;
     color: #5e5e5e;
     font-size: 16px;
+}
+
+h1 {
+    font-weight:500;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .brand-logo {
       width: 240px;
