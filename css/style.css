@@ -45,7 +45,6 @@ html {
 }
 
 h1 {
-    font-weight:500;
     padding-top: 30px;
     padding-bottom: 20px;
 }
@@ -64,6 +63,11 @@ h1 {
 .btn-large {
     background-color: #5493e0;
 }
+.btn-large i {
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
 .btn {
     background-color: #5493e0;
 }
@@ -71,6 +75,8 @@ h1 {
     background-color: #38CA83;
  
 }
+
+
 .pad {
     padding-left: 5%;
     padding-right: 5%;
@@ -335,6 +341,7 @@ footer.page-footer {
     margin-bottom: 10px;
 }
 
+
 .circle-btn-main {
     margin-bottom: 20px !important;
 }
@@ -458,12 +465,12 @@ text-align:center;
     border-radius: 50%;
     position: fixed;
     bottom: 5%;
-    right: 5%;
+        right: 2%;
     display: none;
     background: url('pics/find2.png') no-repeat;
     background-color: #5493e0;
     z-index: 1000;
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
 
@@ -484,3 +491,8 @@ nav {
 
     padding-bottom: 22px !important;
 }
+
+.btn-floating i {
+    color: white;
+}
+
