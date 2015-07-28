@@ -62,6 +62,7 @@ h1 {
 }
 .btn-large {
     background-color: #5493e0;
+    font-weight: bold;
 }
 .btn-large i {
     font-size: 1.6rem;
