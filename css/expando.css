@@ -94,11 +94,7 @@
   -webkit-transform: scale(1) translateZ(0);
           transform: scale(1) translateZ(0);
   opacity: 1;
-  border-width: 1px;
-    border-style: solid;
-    border-color: whitesmoke;
-    border-left-width: 0px;
-    border-right-width: 0px;
+
 }
 
 .visuallyhidden {
