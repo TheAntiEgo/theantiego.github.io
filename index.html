@@ -78,6 +78,7 @@
     <!--Jumbotron -->
 
     <div class="section no-pad-bot" id="index-banner" style=" background-image: url(pics/bubbles1.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+        <div class="animated fadeInUp" style"">
 
         <h1 class="header center white-text" style="//text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.32);">Your Local Market For Skills</h1>
 
@@ -102,6 +103,7 @@
         </div>
         <br><br><br>
     </div>
+</div>
 
     <!--/Jumbotron -->
 
@@ -113,7 +115,7 @@
 <h3 class="blu" style="text-align:center;">Tutors in your area</h3>
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -163,7 +165,7 @@
 
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -212,7 +214,7 @@
                 <!--/Profile Unit -->
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -274,7 +276,7 @@
 
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -324,7 +326,7 @@
 
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -373,7 +375,7 @@
                 <!--/Profile Unit -->
                 <!--Profile Unit -->
                 <div class="col s12 m4">
-                    <div class="procard">
+                    <div class="procard revealOnScroll" data-animation="fadeInUp">
                         <div class="overit">
 
 
@@ -428,7 +430,7 @@
     <div class="row">
 <div class="row pad">
 <div class="col s12 m8 offset-m2">
-    <div class="procard2 pad" >
+    <div class="procard2 pad revealOnScroll" data-animation="fadeInUp" >
     <h3 class="blu" style="text-align:center;">Mission</h3><br>
 <div style="font-size:20px"> <div style="font-weight:bold; text-transform:capitalize; text-align:center; font-size: 24px;">Learning new skills is hard <br><br>Finding a tutor shouldn't be</div><br>
 <p>We believe that everyone has valuable skills to teach others, and that you don’t need expensive, time-consuming courses taught by credentialed experts in order to learn.
@@ -593,8 +595,50 @@ That’s why our mission is to help you harness the untapped talents of your com
     <script src="js/jquery.simple-text-rotator.js"></script>
     <script src="js/expando.js"></script>
      <script src="js/scrolltop.js"></script>
+     <script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+     <script>
+     $(function() {
 
+  var $window           = $(window),
+      win_height_padded = $window.height() * 0.9,
+      isTouch           = Modernizr.touch;
 
+  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+
+  $window.on('scroll', revealOnScroll);
+
+  function revealOnScroll() {
+    var scrolled = $window.scrollTop(),
+        win_height_padded = $window.height() * 0.9 ;
+
+    // Showed...
+    $(".revealOnScroll:not(.animated)").each(function () {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+
+      if (scrolled + win_height_padded > offsetTop) {
+        if ($this.data('timeout')) {
+          window.setTimeout(function(){
+            $this.addClass('animated ' + $this.data('animation'));
+          }, parseInt($this.data('timeout'),10));
+        } else {
+          $this.addClass('animated ' + $this.data('animation'));
+        }
+      }
+    });
+    // Hidden...
+   $(".revealOnScroll.animated").each(function (index) {
+      var $this     = $(this),
+          offsetTop = $this.offset().top;
+      if (scrolled + win_height_padded < offsetTop) {
+        $(this).removeClass('animated fadeInUp flipInX lightSpeedIn')
+      }
+    });
+  }
+
+  revealOnScroll();
+});
+     </script>
     <script>
         $(document).ready(function() {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
